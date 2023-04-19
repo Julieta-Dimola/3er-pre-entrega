@@ -1,3 +1,72 @@
+html {
+  background-color: #EAEAEA;
+}
 
+.sticky-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navegador {
+  background-color: #000000;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #000000;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.7);
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.clase-navegador-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.li-button {
+  float: right;
+  padding: 0 0 0 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login {
+  margin-top: 3px;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  background-color: #64C7EB;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: #FFFFFF;
+}
+
+.login img {
+  width: 20px;
+  height: 20px;
+  filter: invert(99%) sepia(0%) saturate(1062%) hue-rotate(172deg) brightness(114%) contrast(100%);
+}
+
+.links-navegacion {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+}
+.links-navegacion:hover {
+  filter: invert(65%) sepia(38%) saturate(3745%) hue-rotate(166deg) brightness(115%) contrast(89%);
+}
+
+.icon-home, .expand-more {
+  filter: invert(99%) sepia(0%) saturate(1062%) hue-rotate(172deg) brightness(114%) contrast(100%);
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+.tabla-centrada {
+  text-align: center;
+}
 
 /*# sourceMappingURL=Estilos.css.map */
