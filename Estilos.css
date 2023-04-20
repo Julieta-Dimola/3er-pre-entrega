@@ -107,6 +107,31 @@ html {
   background-color: #83B4DB;
 }
 
+.detalle-liga {
+  background-color: #EAEAEA;
+  width: 97%;
+}
+
+.estadistica-liga {
+  background-color: #D9D9D9;
+}
+
+.fixture {
+  background-color: #EAEAEA;
+}
+
+.filtro-temporada, .resultado-partido, .fecha-partido, .tabla-evento {
+  background-color: #FFFFFF;
+}
+
+.evento-fondo {
+  background-color: #D9D9D9;
+}
+
+.tabla-liga-fondo {
+  background-color: #FFFFFF;
+}
+
 @media screen and (max-width: 768px) {
   .barra-inicio {
     background-color: #000000;

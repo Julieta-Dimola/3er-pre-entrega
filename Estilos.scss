@@ -125,6 +125,31 @@ html{
     }
 }
 
+.detalle-liga{
+    background-color: $color-grisclaro;
+    width: 97%;
+}
+
+.estadistica-liga{
+    background-color: $color-gris;
+}
+
+.fixture{
+    background-color: $color-grisclaro;
+}
+
+.filtro-temporada, .resultado-partido, .fecha-partido, .tabla-evento{
+    background-color: $color-blanco;
+}
+
+.evento-fondo{
+    background-color: $color-gris;
+}
+
+.tabla-liga-fondo{
+    background-color: $color-blanco;
+}
+
 //Resolución para dispositivos mobiles (a partir de los 764px)
 
 @media screen and (max-width:768px){
