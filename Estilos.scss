@@ -23,6 +23,10 @@ html{
     z-index: 1000;
 }
 
+.barra-inicio{
+    background-color: $color-gris;
+}
+
 .navegador{
     background-color: $color-negro;
     margin-bottom: 30px;
@@ -83,4 +87,61 @@ html{
 
 .tabla-centrada{
     text-align: center;
+}
+
+.tabla-fondo{
+    background-color: $color-grisclaro;
+}
+
+.fondo-tabla{
+    background-color: $color-blanco;
+}
+
+.titulo{
+    background-color: $color-celeste;
+}
+
+.resultado-fondo{
+    background-color: $color-turquesa !important; 
+    color: $color-blanco !important; 
+}
+
+.ir-competicion, .ir-icon{
+    filter: invert(70%) sepia(51%) saturate(339%) hue-rotate(172deg) brightness(90%) contrast(89%);
+}
+
+.cajas-color{
+    .color-a{
+        background-color: $color-verde;
+    }
+    .color-b{
+        background-color: $color-naranja;
+    }
+    .color-c{
+        background-color: $color-rojo;
+    }
+    .color-d{
+        background-color: $color-celeste;
+    }
+}
+
+//Resolución para dispositivos mobiles (a partir de los 764px)
+
+@media screen and (max-width:768px){
+    .barra-inicio{
+        background-color: $color-negro;
+        border-bottom: 1px solid $color-negro;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.7);
+    }
+    .buscador-icon, .menu-hamburguesa-icon, .login-solo-icon{
+        filter: invert(65%) sepia(38%) saturate(3745%) hue-rotate(166deg) brightness(115%) contrast(89%);   
+    }
+}
+
+//Resolución para Desktop (mínima 1480px)
+
+@media screen and (min-width:768px){
+    body{
+        width: 70%;
+    }
 }
